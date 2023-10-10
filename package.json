@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Portfolio",
   "main": "index.js",
+  "homepage": "https://siiddhrtha.github.io/My-Portfolio/",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Siddhartha Rout",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "node-sass": "^9.0.0"
   }
 }
