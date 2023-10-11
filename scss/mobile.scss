@@ -3,7 +3,8 @@
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
-}
+  }
+
 
 // Desktops & Laptops
 @include mediaLg {
@@ -85,4 +86,5 @@
   .projects {
     grid-template-columns: 1fr;
   }
+  
 }

@@ -14,6 +14,43 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
+/** OCTO CAT */
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+  transition: all 0.5s ease-out;
+  color: #ffffff;
+}
+
+@keyframes octocat-wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-25deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(-25deg);
+  }
+  80% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+
 
 // Headings
 h1,
@@ -72,7 +109,38 @@ main {
       margin-top: 20vh;
     }
   }
+}  
+
+//
+
+.resume {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+
+  font-size: 1.2rem;
+    border: 1px #54e1d1 solid;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    @include easeOut;
+
+    &:hover {
+      padding: 0.5rem 1.5rem;
+      background: rgb(189,195,199);
+      background: linear-gradient(111deg, rgba(189,195,199,1) 0%, rgba(44,62,80,1) 51%);
+    span{
+      color: set-text-color($secondary-color);
+    }
+  }
 }
+
+
+
+
 
 .about-info {
   display: grid;
@@ -157,6 +225,8 @@ main {
     }
   }
 }
+
+
 
 // Button Styles
 .btn {
