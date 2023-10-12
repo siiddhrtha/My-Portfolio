@@ -112,7 +112,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.9); }
+      background: rgba(68, 68, 68, 0.82); }
 
 /** OCTO CAT */
 .github-corner:hover .octo-arm {
@@ -293,7 +293,7 @@ main {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; } }
 
-@media screen and (min-width: 641px) and (max-width: 1007px) {
+@media screen and (max-width: 768px) {
   main {
     align-items: center;
     text-align: center; }
@@ -325,7 +325,7 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 500px) {
   main {
     padding: 2rem; }
     main #home h1 {
