@@ -140,8 +140,6 @@ main {
 
 
 
-
-
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -154,7 +152,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: $secondary-color 3px solid;
+    border: $secondary-color 1px solid;
   }
 
   .bio {
@@ -175,9 +173,9 @@ main {
   }
 
   .job {
-    background: lighten($primary-color, 5);
+    background: lighten($primary-color, 7);
     padding: 0.5rem;
-    border-bottom: $secondary-color 5px solid;
+    border-bottom: $secondary-color 3px solid;
   }
 }
 

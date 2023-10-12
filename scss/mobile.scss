@@ -3,13 +3,14 @@
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
+
   }
 
 
 // Desktops & Laptops
 @include mediaLg {
   .projects {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .about-info {
     grid-template-areas:
@@ -74,7 +75,7 @@
       'job2'
       'job3';
 
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .projects {
