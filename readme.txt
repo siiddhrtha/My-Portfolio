@@ -5,7 +5,7 @@ npm run sass
 ### Git Push master ## 
 
 git init
-git add.
+git add .
 git commit -m "message"
 git push -u origin master
 
